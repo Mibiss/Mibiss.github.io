@@ -1,27 +1,234 @@
-<header>
-  <h1>Mihail</h1>
-  <p>Electrical Engineering</p>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mihail Paladi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-<section id="about">
-  <h2>About Me</h2>
-  <p>Interested in programs development.</p>
-</section>
+  <nav>
+    <span class="nav-name">Mihail Paladi</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-  </ul>
-</section>
+  <main>
 
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="project">
-    <h3>Blog Web App</h3>
-    <p>Simple blog where you can post something on your mind. Saves posts during session.</p>
-    <a href="https://github.com/Mibiss/Blog-Web-Application">Code</a>
-  </div>
-</section>
+    <section id="hero">
+      <h1>Mihail Paladi</h1>
+      <p class="subtitle">Electronics, Informatics &amp; Technology &mdash; University of Oslo, 2025</p>
+      <div class="hero-links">
+        <a href="https://github.com/Mibiss" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/mihail-paladi-a35544184/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>IT and software engineering graduate with hands-on experience in Level 1–2 IT support, incident management, and SLA-driven environments at BMW Group Norge. Strong foundation in programming and object-oriented design, with a practical portfolio spanning full-stack web apps, simulations, and games. Seeking an entry-level role in IT services or consulting.</p>
+
+      <h3 class="section-label">Technical Skills</h3>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <span class="skill-group-label">Programming &amp; Web</span>
+          <div class="skills">
+            <span>Python</span><span>Java</span><span>JavaScript</span><span>SQL</span><span>HTML</span><span>CSS</span><span>LaTeX</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">Backend &amp; Frameworks</span>
+          <div class="skills">
+            <span>Node.js</span><span>Express.js</span><span>EJS</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">Tools &amp; Concepts</span>
+          <div class="skills">
+            <span>Git</span><span>REST APIs</span><span>OOP</span><span>MVC</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">IT Support</span>
+          <div class="skills">
+            <span>Level 1–2 Support</span><span>Incident Management</span><span>Ticketing Systems</span><span>SLA Compliance</span>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="section-label">Languages</h3>
+      <div class="skills">
+        <span>English — Fluent</span>
+        <span>Norwegian — Fluent</span>
+        <span>Portuguese — Good</span>
+        <span>Spanish — Good</span>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <div class="exp-entry">
+        <div class="exp-header">
+          <div>
+            <h4>Bachelor's in Electronics, Informatics &amp; Technology</h4>
+            <p class="exp-company">University of Oslo</p>
+          </div>
+          <span class="exp-date">Graduated Dec 2025</span>
+        </div>
+        <p class="exp-note">Coursework: Python, Java, Computer Systems, Software Design, Mathematics, Physics.</p>
+      </div>
+
+      <div class="exp-entry">
+        <div class="exp-header">
+          <div>
+            <h4>IT Support (Level 1–2)</h4>
+            <p class="exp-company">BMW Group Norge</p>
+          </div>
+          <span class="exp-date">Oct 2022 – Present &middot; Oslo</span>
+        </div>
+        <ul>
+          <li>Provided Level 1 and Level 2 IT support for 40+ users in a corporate environment.</li>
+          <li>Managed incidents and service requests through ticketing workflows, ensuring SLA compliance.</li>
+          <li>Troubleshot hardware, software, and access-related issues; escalated complex cases when required.</li>
+          <li>Collaborated with internal IT teams and external vendors to resolve recurring technical issues.</li>
+        </ul>
+      </div>
+
+      <div class="exp-entry">
+        <div class="exp-header">
+          <div>
+            <h4>Crew Member</h4>
+            <p class="exp-company">McDonald's</p>
+          </div>
+          <span class="exp-date">Nov 2021 – Sep 2022 &middot; Oslo</span>
+        </div>
+        <ul>
+          <li>Developed teamwork, communication, and customer service skills in a fast-paced environment.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <h3 class="category">Web &amp; Apps</h3>
+      <div class="project-grid">
+
+        <div class="card">
+          <div class="card-header">
+            <h4>Blog Web Application</h4>
+            <a href="https://github.com/Mibiss/Blog-Web-Application" target="_blank" rel="noopener">↗</a>
+          </div>
+          <p>Full-stack blog with session-based functionality for creating, editing, and deleting posts. Server-side routing and dynamic rendering with a modular project structure.</p>
+          <div class="tags"><span>Node.js</span><span>Express.js</span><span>EJS</span></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h4>LegeSystem</h4>
+            <a href="https://github.com/Mibiss/LegeSystem" target="_blank" rel="noopener">↗</a>
+          </div>
+          <p>Medical prescription management system built with strong OOP principles — interconnected domain classes with encapsulation, inheritance, and maintainability.</p>
+          <div class="tags"><span>Java</span><span>OOP</span></div>
+        </div>
+
+      </div>
+
+      <h3 class="category">Competition</h3>
+
+      <div class="card card-featured">
+        <div class="card-header">
+          <div>
+            <h4>NM i AI 2026 &mdash; Team Turning Machine</h4>
+            <p class="card-meta">Norway's national AI championship &middot; March 19–23, 2026</p>
+          </div>
+          <a href="https://github.com/Mibiss/Turning-Machine" target="_blank" rel="noopener">↗</a>
+        </div>
+        <p>Four days, three challenges, one team. Competed across computer vision, simulation, and agentic AI tasks.</p>
+        <div class="challenges">
+
+          <div class="challenge">
+            <span class="challenge-label">NorgesGruppen Data</span>
+            <p>Grocery shelf detection — 356 product categories, 90+ objects per image, only 248 training images. YOLOv8x with stratified splitting, 4-phase progressive training, and FP16 ONNX ensemble with Weighted Boxes Fusion.</p>
+            <div class="tags"><span>Python</span><span>YOLOv8</span><span>ONNX</span></div>
+          </div>
+
+          <div class="challenge">
+            <span class="challenge-label">Astar Island</span>
+            <p>Predict how a Norse Viking civilization evolves across a 40×40 grid over 50 years. Monte Carlo forward simulation with vectorized NumPy — 300 parallel simulations in under 10 seconds.</p>
+            <div class="tags"><span>Python</span><span>NumPy</span><span>Monte Carlo</span></div>
+          </div>
+
+          <div class="challenge">
+            <span class="challenge-label">Tripletex Agent</span>
+            <p>Automate 20+ accounting workflows via natural language — invoices, payments, payroll, and ledger corrections. Kotlin agentic system powered by Claude Sonnet with REST API tool use and multi-step reasoning.</p>
+            <div class="tags"><span>Kotlin</span><span>Claude Sonnet</span><span>REST API</span></div>
+          </div>
+
+        </div>
+      </div>
+
+      <h3 class="category">Games</h3>
+      <div class="project-grid">
+
+        <div class="card">
+          <div class="card-header">
+            <h4>Blackjack</h4>
+            <a href="https://github.com/Mibiss/Black_Jack" target="_blank" rel="noopener">↗</a>
+          </div>
+          <p>Browser-based Blackjack card game focusing on state management and game logic.</p>
+          <div class="tags"><span>JavaScript</span></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h4>Game of Life</h4>
+            <a href="https://github.com/Mibiss/GameOfLife" target="_blank" rel="noopener">↗</a>
+          </div>
+          <p>Conway's Game of Life — cellular automaton simulation running in the browser.</p>
+          <div class="tags"><span>JavaScript</span></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h4>Simon Game Challenge</h4>
+            <a href="https://github.com/Mibiss/SimonGameChallenge" target="_blank" rel="noopener">↗</a>
+          </div>
+          <p>Browser implementation of the classic Simon memory game.</p>
+          <div class="tags"><span>JavaScript</span></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h4>Tic Tac Toe</h4>
+            <a href="https://github.com/Mibiss/TicTacToe" target="_blank" rel="noopener">↗</a>
+          </div>
+          <p>Classic Tic Tac Toe playable in the browser.</p>
+          <div class="tags"><span>JavaScript</span></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-links">
+        <a href="https://github.com/Mibiss" target="_blank" rel="noopener">GitHub &rarr;</a>
+        <a href="https://www.linkedin.com/in/mihail-paladi-a35544184/" target="_blank" rel="noopener">LinkedIn &rarr;</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Mihail Paladi &copy; 2026</p>
+  </footer>
+
+</body>
+</html>
