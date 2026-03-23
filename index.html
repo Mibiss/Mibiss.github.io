@@ -22,7 +22,7 @@
 
     <section id="hero">
       <h1>Mihail Paladi</h1>
-      <p class="subtitle">Electronics, Informatics &amp; Technology &mdash; University of Oslo, 2025</p>
+      <p class="subtitle">Software Engineer | IT Support | Applied AI</p>
       <div class="hero-links">
         <a href="https://github.com/Mibiss" target="_blank" rel="noopener">GitHub</a>
         <a href="https://www.linkedin.com/in/mihail-paladi-a35544184/" target="_blank" rel="noopener">LinkedIn</a>
@@ -31,7 +31,9 @@
 
     <section id="about">
       <h2>About</h2>
-      <p>IT and software engineering graduate with hands-on experience in Level 1–2 IT support, incident management, and SLA-driven environments at BMW Group Norge. Strong foundation in programming and object-oriented design, with a practical portfolio spanning full-stack web apps, simulations, and games. Seeking an entry-level role in IT services or consulting.</p>
+      <p>IT and software engineering graduate with hands-on experience in IT support at BMW Group Norge and a strong technical foundation in backend development and applied AI.</p>
+      <p>Built full-stack applications and competed in Norway's national AI championship, solving real-world problems in computer vision, simulation, and agentic systems.</p>
+      <p>Interested in roles in IT services, consulting, or software engineering where I can combine practical problem-solving with technical depth.</p>
 
       <h3 class="section-label">Technical Skills</h3>
       <div class="skill-groups">
@@ -93,10 +95,10 @@
           <span class="exp-date">Oct 2022 – Present &middot; Oslo</span>
         </div>
         <ul>
-          <li>Provided Level 1 and Level 2 IT support for the Norway office in a corporate environment.</li>
-          <li>Managed incidents and service requests through ticketing workflows, ensuring SLA compliance.</li>
-          <li>Troubleshot hardware, software, and access-related issues; escalated complex cases when required.</li>
-          <li>Collaborated with internal IT teams and external vendors to resolve recurring technical issues.</li>
+          <li>Supported enterprise users across hardware, software, and access systems in a corporate environment.</li>
+          <li>Managed incidents and service requests through ticketing workflows, maintaining SLA compliance.</li>
+          <li>Reduced recurring issues by identifying root causes and collaborating with vendors and internal teams.</li>
+          <li>Escalated and resolved complex cases in coordination with broader IT operations.</li>
         </ul>
       </div>
 
@@ -117,8 +119,36 @@
     <section id="projects">
       <h2>Projects</h2>
 
-      <h3 class="category">Web &amp; Apps</h3>
-      <div class="project-grid">
+      <h3 class="category">Featured</h3>
+
+      <div class="card card-featured">
+        <div class="card-header">
+          <div>
+            <h4>NM i AI 2026 &mdash; Team Turning Machine</h4>
+          </div>
+          <a href="https://github.com/Mibiss/Turning-Machine" target="_blank" rel="noopener">↗</a>
+        </div>
+          <p>Placed <strong>137 / 487 teams (top 28%)</strong> in Norway’s national AI championship. Delivered production-style solutions across computer vision, simulation, and LLM agents under tight deadlines and real-world constraints.</p>
+        <div class="challenges">
+          <div class="challenge">
+            <span class="challenge-label">NorgesGruppen Data</span>
+            <p>Built a YOLOv8x detection system for 356 product classes under extreme data constraints (248 training images, 90+ objects/image).<strong>Delivered high-recall predictions in a dense retail setting</strong> using 4-phase progressive training, FP16 ONNX export, and Weighted Boxes Fusion.</p>            <div class="tags"><span>Python</span><span>YOLOv8</span><span>ONNX</span></div>
+          </div>
+
+          <div class="challenge">
+            <span class="challenge-label">Astar Island</span>
+            <p>Simulated Norse civilization evolution across a 40×40 grid over 50 years.<strong>Achieved fast and statistically stable predictions</strong> by running 300 vectorized Monte Carlo simulations in under 10 seconds.</p>            <div class="tags"><span>Python</span><span>NumPy</span><span>Monte Carlo</span></div>
+          </div>
+
+          <div class="challenge">
+            <span class="challenge-label">Tripletex Agent</span>
+            <p>Built an agentic system automating 20+ accounting workflows via natural language (invoices, payroll, ledger corrections).<strong>Enabled multi-step task execution through LLM reasoning and REST API integration</strong> using Kotlin and Claude Sonnet.</p>            <div class="tags"><span>Kotlin</span><span>Claude Sonnet</span><span>REST API</span></div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="project-grid" style="margin-top: 1rem;">
 
         <div class="card">
           <div class="card-header">
@@ -140,41 +170,7 @@
 
       </div>
 
-      <h3 class="category">Competition</h3>
-
-      <div class="card card-featured">
-        <div class="card-header">
-          <div>
-            <h4>NM i AI 2026 &mdash; Team Turning Machine</h4>
-            <p class="card-meta">Norway's national AI championship &middot; March 19–23, 2026</p>
-          </div>
-          <a href="https://github.com/Mibiss/Turning-Machine" target="_blank" rel="noopener">↗</a>
-        </div>
-        <p>Four days, three challenges, one team. Competed across computer vision, simulation, and agentic AI tasks.</p>
-        <div class="challenges">
-
-          <div class="challenge">
-            <span class="challenge-label">NorgesGruppen Data</span>
-            <p>Grocery shelf detection — 356 product categories, 90+ objects per image, only 248 training images. YOLOv8x with stratified splitting, 4-phase progressive training, and FP16 ONNX ensemble with Weighted Boxes Fusion.</p>
-            <div class="tags"><span>Python</span><span>YOLOv8</span><span>ONNX</span></div>
-          </div>
-
-          <div class="challenge">
-            <span class="challenge-label">Astar Island</span>
-            <p>Predict how a Norse Viking civilization evolves across a 40×40 grid over 50 years. Monte Carlo forward simulation with vectorized NumPy — 300 parallel simulations in under 10 seconds.</p>
-            <div class="tags"><span>Python</span><span>NumPy</span><span>Monte Carlo</span></div>
-          </div>
-
-          <div class="challenge">
-            <span class="challenge-label">Tripletex Agent</span>
-            <p>Automate 20+ accounting workflows via natural language — invoices, payments, payroll, and ledger corrections. Kotlin agentic system powered by Claude Sonnet with REST API tool use and multi-step reasoning.</p>
-            <div class="tags"><span>Kotlin</span><span>Claude Sonnet</span><span>REST API</span></div>
-          </div>
-
-        </div>
-      </div>
-
-      <h3 class="category">Games</h3>
+      <h3 class="category">Other Projects</h3>
       <div class="project-grid">
 
         <div class="card">

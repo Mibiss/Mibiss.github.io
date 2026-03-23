@@ -127,6 +127,10 @@ section:last-child {
 #about > p {
   color: var(--muted);
   max-width: 600px;
+  margin-bottom: 0.85rem;
+}
+
+#about > p:last-of-type {
   margin-bottom: 2rem;
 }
 
