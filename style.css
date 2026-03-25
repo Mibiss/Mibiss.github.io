@@ -219,6 +219,13 @@ h3.category:first-of-type {
   flex-direction: column;
   gap: 0.6rem;
   transition: border-color 0.15s, box-shadow 0.15s;
+  position: relative;
+}
+
+.stretched-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
 }
 
 .card:hover {
@@ -240,9 +247,10 @@ h3.category:first-of-type {
 .card-header a {
   text-decoration: none;
   color: var(--muted);
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1;
   transition: color 0.15s;
+  white-space: nowrap;
 }
 
 .card-header a:hover {
