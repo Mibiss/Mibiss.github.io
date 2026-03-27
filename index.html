@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mihail Paladi</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
   <nav>
-    <span class="nav-name">Mihail Paladi</span>
+    <a href="index.html" class="nav-name">Mihail Paladi</a>
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
@@ -170,45 +170,8 @@
 
       </div>
 
-      <h3 class="category">Other Projects</h3>
-      <div class="project-grid">
-
-        <div class="card">
-          <div class="card-header">
-            <h4>Blackjack</h4>
-            <a href="https://github.com/Mibiss/Black_Jack" target="_blank" rel="noopener">↗</a>
-          </div>
-          <p>Terminal based Blackjack card game focusing on state management and game logic.</p>
-          <div class="tags"><span>Python</span></div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <h4>Game of Life</h4>
-            <a href="https://github.com/Mibiss/GameOfLife" target="_blank" rel="noopener">↗</a>
-          </div>
-          <p>Conway's Game of Life — cellular automaton simulation running in the browser.</p>
-          <div class="tags"><span>Java</span></div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <h4>Simon Game Challenge</h4>
-            <a href="https://github.com/Mibiss/SimonGameChallenge" target="_blank" rel="noopener">↗</a>
-          </div>
-          <p>Browser implementation of the classic Simon memory game.</p>
-          <div class="tags"><span>JavaScript</span></div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <h4>Tic Tac Toe</h4>
-            <a href="https://github.com/Mibiss/TicTacToe" target="_blank" rel="noopener">↗</a>
-          </div>
-          <p>Classic Tic Tac Toe playable in the terminal.</p>
-          <div class="tags"><span>Python</span></div>
-        </div>
-
+      <div class="all-projects-link">
+        <a href="projects.html">All projects &rarr;</a>
       </div>
     </section>
 
@@ -227,18 +190,7 @@
   </footer>
 
 
-  <script>
-    // Wake Render services in the background on portfolio load
-    (function wakeServices() {
-      const services = [
-        'https://legesystem.onrender.com',
-        'https://blog-web-app-y3wl.onrender.com'
-      ];
-      services.forEach(function(url) {
-        fetch(url, { mode: 'no-cors' }).catch(function() {});
-      });
-    })();
-  </script>
+  <script src="js/main.js"></script>
 
 </body>
 </html>

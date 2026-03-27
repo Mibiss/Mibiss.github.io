@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects &mdash; Mihail Paladi</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-name">Mihail Paladi</a>
+    <ul>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#experience">Experience</a></li>
+      <li><a href="projects.html" class="nav-active">Projects</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="projects-hero">
+      <h1 style="font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 0.75rem;">Projects</h1>
+      <p class="subtitle">A collection of things I've built - from AI competition entries to full-stack web apps.</p>
+    </section>
+
+    <section id="competition">
+      <h2>Competition</h2>
+
+      <div class="card card-featured" style="display: flex; flex-direction: column;">
+        <div class="card-header">
+          <div>
+            <h4>NM i AI 2026 &mdash; Team Turning Machine</h4>
+          </div>
+          <a href="https://github.com/Mibiss/Turning-Machine" target="_blank" rel="noopener">GitHub repo</a>
+        </div>
+        <p>Placed <strong>137 / 487 teams (top 28%)</strong> in Norway's national AI championship. Delivered production-style solutions across computer vision, simulation, and LLM agents under tight deadlines and real-world constraints.</p>
+        <div class="challenges">
+
+          <div class="challenge">
+            <span class="challenge-label">NorgesGruppen Data</span>
+            <p>Built a YOLOv8x detection system for 356 product classes under extreme data constraints (248 training images, 90+ objects/image). <strong>Delivered high-recall predictions in a dense retail setting</strong> using 4-phase progressive training, FP16 ONNX export, and Weighted Boxes Fusion.</p>
+            <div class="tags"><span>Python</span><span>YOLOv8</span><span>ONNX</span></div>
+          </div>
+
+          <div class="challenge">
+            <span class="challenge-label">Astar Island</span>
+            <p>Simulated Norse civilization evolution across a 40&times;40 grid over 50 years. <strong>Achieved fast and statistically stable predictions</strong> by running 300 vectorized Monte Carlo simulations in under 10 seconds.</p>
+            <div class="tags"><span>Python</span><span>NumPy</span><span>Monte Carlo</span></div>
+          </div>
+
+          <div class="challenge">
+            <span class="challenge-label">Tripletex Agent</span>
+            <p>Built an agentic system automating 20+ accounting workflows via natural language (invoices, payroll, ledger corrections). <strong>Enabled multi-step task execution through LLM reasoning and REST API integration</strong> using Kotlin and Claude Sonnet.</p>
+            <div class="tags"><span>Kotlin</span><span>Claude Sonnet</span><span>REST API</span></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="featured">
+      <h2>Featured Projects</h2>
+
+      <div class="project-grid">
+
+        <div class="card">
+          <div class="card-header">
+            <h4>Blog Web Application</h4>
+            <a href="https://blog-web-app-y3wl.onrender.com" target="_blank" rel="noopener" class="stretched-link">live demo</a>
+          </div>
+          <p>Built and deployed a full-stack blog platform using <strong>Node.js, Express,</strong> and <strong>EJS</strong> with <strong>session-based authentication</strong> and full CRUD functionality. Designed a <strong>modular server-side architecture</strong> with dynamic rendering and routing. Hosted on <strong>Render</strong>.</p>
+          <div class="tags"><span>Node.js</span><span>Express.js</span><span>EJS</span></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h4>LegeSystem</h4>
+            <a href="https://legesystem.onrender.com" target="_blank" rel="noopener" class="stretched-link">live demo</a>
+          </div>
+          <p>Java prescription management system with doctors, patients, and prescription types modelled through <strong>OOP</strong>. Deployed on <strong>Render</strong> with a live browser terminal - <strong>Node.js</strong> spawns the <strong>Java process</strong> over <strong>WebSockets</strong> and streams I/O into <strong>xterm.js</strong>.</p>
+          <div class="tags"><span>Java</span><span>OOP</span><span>Node.js</span><span>WebSockets</span></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="other">
+      <h2>Other Projects</h2>
+
+      <div class="project-grid">
+
+        <div class="card">
+          <div class="card-header">
+            <h4>Blackjack</h4>
+            <a href="https://github.com/Mibiss/Black_Jack" target="_blank" rel="noopener">↗</a>
+          </div>
+          <p>Terminal based Blackjack card game focusing on state management and game logic.</p>
+          <div class="tags"><span>Python</span></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h4>Game of Life</h4>
+            <a href="https://github.com/Mibiss/GameOfLife" target="_blank" rel="noopener">↗</a>
+          </div>
+          <p>Conway's Game of Life - cellular automaton simulation running in the browser.</p>
+          <div class="tags"><span>Java</span></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h4>Simon Game Challenge</h4>
+            <a href="https://github.com/Mibiss/SimonGameChallenge" target="_blank" rel="noopener">↗</a>
+          </div>
+          <p>Browser implementation of the classic Simon memory game.</p>
+          <div class="tags"><span>JavaScript</span></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h4>Tic Tac Toe</h4>
+            <a href="https://github.com/Mibiss/TicTacToe" target="_blank" rel="noopener">↗</a>
+          </div>
+          <p>Classic Tic Tac Toe playable in the terminal.</p>
+          <div class="tags"><span>Python</span></div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Mihail Paladi &copy; 2026</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
