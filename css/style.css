@@ -90,7 +90,8 @@ section:last-child {
 
 /* HERO */
 
-#hero {
+#hero,
+#projects-hero {
   padding: 3rem 0 2.5rem;
 }
 
