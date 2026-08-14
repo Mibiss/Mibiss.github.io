@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects &mdash; Mihail Paladi</title>
+  <title>Projects - Mihail Paladi</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -19,19 +19,85 @@
   </nav>
 
   <main>
-
     <section id="projects-hero">
       <h1 style="font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 0.75rem;">Projects</h1>
-      <p class="subtitle">A collection of things I've built - from AI competition entries to full-stack web apps.</p>
+      <p class="subtitle">A showcase of projects I've built-from AWS cloud solutions and full-stack applications to AI Championship projects.</p>
     </section>
 
+    <section id="projects">
+      <h2 class="category">Featured Project</h2>
+      <div class="card card-featured">
+        <div class="card-header">
+          <div>
+            <h3>HomePulse AWS - Edge-to-Cloud Observability Platform</h3>
+          </div>
+          <a href="https://github.com/Mibiss/homepulse-aws"
+            target="_blank"
+            rel="noopener">
+            GitHub repo
+          </a>
+        </div>
+
+        <p>
+          Designed and built an edge-to-cloud monitoring platform that collects
+          home-network and host telemetry with a Python agent and securely
+          publishes it to AWS IoT Core using MQTT over mutual TLS.
+        </p>
+
+        <div class="challenges">
+
+          <div class="challenge">
+            <span class="challenge-label">Serverless Architecture</span>
+            <p>
+              Built an ingestion pipeline using AWS IoT Core, IoT Rules,
+              Lambda, DynamoDB, CloudWatch, SNS, and SQS.
+            </p>
+            <div class="tags">
+              <span>AWS</span>
+              <span>Lambda</span>
+              <span>DynamoDB</span>
+              <span>IoT Core</span>
+            </div>
+          </div>
+
+          <div class="challenge">
+            <span class="challenge-label">Infrastructure as Code</span>
+            <p>
+              Provisioned production infrastructure with Terraform using
+              encrypted remote state, state locking, reusable configuration,
+              and controlled bootstrap stacks.
+            </p>
+            <div class="tags">
+              <span>Terraform</span>
+              <span>S3</span>
+              <span>IAM</span>
+            </div>
+          </div>
+
+          <div class="challenge">
+            <span class="challenge-label">CI/CD & Reliability</span>
+            <p>
+              Implemented GitHub Actions CI/CD, OIDC-based AWS authentication,
+              automated testing, structured logging, heartbeat monitoring,
+              retries, failure queues, TTL, and point-in-time recovery.
+            </p>
+            <div class="tags">
+              <span>GitHub Actions</span>
+              <span>pytest</span>
+              <span>CloudWatch</span>
+              <span>SQS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <section id="competition">
-      <h2>Competition</h2>
+      <h2>AI Championship</h2>
 
       <div class="card card-featured" style="display: flex; flex-direction: column;">
         <div class="card-header">
           <div>
-            <h4>NM i AI 2026 &mdash; Team Turning Machine</h4>
+            <h3>NM i AI 2026 — Team Turning Machine</h3>
           </div>
           <a href="https://github.com/Mibiss/Turning-Machine" target="_blank" rel="noopener">GitHub repo</a>
         </div>
@@ -61,13 +127,13 @@
     </section>
 
     <section id="featured">
-      <h2>Featured Projects</h2>
+      <h2>App Projects</h2>
 
       <div class="project-grid">
 
         <div class="card">
           <div class="card-header">
-            <h4>Blog Web Application</h4>
+            <h3>Blog Web Application</h3>
             <a href="https://blog-web-app-y3wl.onrender.com" class="stretched-link">live demo</a>
           </div>
           <p>Built and deployed a full-stack blog platform using <strong>Node.js, Express,</strong> and <strong>EJS</strong> with <strong>session-based authentication</strong> and full CRUD functionality. Designed a <strong>modular server-side architecture</strong> with dynamic rendering and routing. Hosted on <strong>Render</strong>.</p>
@@ -76,7 +142,7 @@
 
         <div class="card">
           <div class="card-header">
-            <h4>LegeSystem</h4>
+            <h3>LegeSystem</h3>
             <a href="https://legesystem.onrender.com" class="stretched-link">live demo</a>
           </div>
           <p>Java prescription management system with doctors, patients, and prescription types modelled through <strong>OOP</strong>. Deployed on <strong>Render</strong> with a live browser terminal - <strong>Node.js</strong> spawns the <strong>Java process</strong> over <strong>WebSockets</strong> and streams I/O into <strong>xterm.js</strong>.</p>
@@ -87,13 +153,13 @@
     </section>
 
     <section id="other">
-      <h2>Other Projects</h2>
+      <h2>Other Small Projects</h2>
 
       <div class="project-grid">
 
         <div class="card">
           <div class="card-header">
-            <h4>Blackjack</h4>
+            <h3>Blackjack</h3>
             <a href="https://github.com/Mibiss/Black_Jack" target="_blank" rel="noopener">↗</a>
           </div>
           <p>Terminal based Blackjack card game focusing on state management and game logic.</p>
@@ -102,7 +168,7 @@
 
         <div class="card">
           <div class="card-header">
-            <h4>Game of Life</h4>
+            <h3>Game of Life</h3>
             <a href="https://github.com/Mibiss/GameOfLife" target="_blank" rel="noopener">↗</a>
           </div>
           <p>Conway's Game of Life - cellular automaton simulation running in the browser.</p>
@@ -111,7 +177,7 @@
 
         <div class="card">
           <div class="card-header">
-            <h4>Simon Game Challenge</h4>
+            <h3>Simon Game Challenge</h3>
             <a href="https://github.com/Mibiss/SimonGameChallenge" target="_blank" rel="noopener">↗</a>
           </div>
           <p>Browser implementation of the classic Simon memory game.</p>
@@ -120,7 +186,7 @@
 
         <div class="card">
           <div class="card-header">
-            <h4>Tic Tac Toe</h4>
+            <h3>Tic Tac Toe</h3>
             <a href="https://github.com/Mibiss/TicTacToe" target="_blank" rel="noopener">↗</a>
           </div>
           <p>Classic Tic Tac Toe playable in the terminal.</p>
