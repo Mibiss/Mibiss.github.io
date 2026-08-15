@@ -8,3 +8,17 @@
     fetch(url, { mode: 'no-cors' }).catch(function() {});
   });
 })();
+
+async function loadPartial(elementId, file) {
+  const response = await fetch(file);
+
+  if (!response.ok) {
+    throw new Error(`Could not load ${file}`);
+  }
+
+  const html = await response.text();
+  document.getElementById(elementId).innerHTML = html;
+}
+
+loadPartial("homepulse-partial", "partials/homepulse.html");
+loadPartial("ai-competition-partial", "partials/ai-competition.html");
