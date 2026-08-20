@@ -29,16 +29,19 @@ body {
 
 /* NAV */
 
-nav {
+#navbar-partial {
   position: sticky;
   top: 0;
+  z-index: 100;
+}
+
+nav {
   background: var(--bg);
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  z-index: 100;
 }
 
 .nav-name {

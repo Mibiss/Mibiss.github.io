@@ -1,0 +1,63 @@
+<div class="card-header">
+  <div>
+    <h4>HomePulse AWS - Edge-to-Cloud Observability Platform</h4>
+  </div>
+  <a
+    href="https://github.com/Mibiss/homepulse-aws"
+    target="_blank"
+    rel="noopener"
+  >
+    GitHub repo
+  </a>
+</div>
+
+<p>
+  Designed and built an edge-to-cloud monitoring platform that collects
+  home-network and host telemetry with a Python agent and securely publishes it
+  to AWS IoT Core using MQTT over mutual TLS.
+</p>
+
+<div class="challenges">
+  <div class="challenge">
+    <span class="challenge-label">Serverless Architecture</span>
+    <p>
+      Built an ingestion pipeline using AWS IoT Core, IoT Rules, Lambda,
+      DynamoDB, CloudWatch, SNS, and SQS.
+    </p>
+    <div class="tags">
+      <span>AWS</span>
+      <span>Lambda</span>
+      <span>DynamoDB</span>
+      <span>IoT Core</span>
+    </div>
+  </div>
+
+  <div class="challenge">
+    <span class="challenge-label">Infrastructure as Code</span>
+    <p>
+      Provisioned production infrastructure with Terraform using encrypted
+      remote state, state locking, reusable configuration, and controlled
+      bootstrap stacks.
+    </p>
+    <div class="tags">
+      <span>Terraform</span>
+      <span>S3</span>
+      <span>IAM</span>
+    </div>
+  </div>
+
+  <div class="challenge">
+    <span class="challenge-label">CI/CD & Reliability</span>
+    <p>
+      Implemented GitHub Actions CI/CD, OIDC-based AWS authentication, automated
+      testing, structured logging, heartbeat monitoring, retries, failure
+      queues, TTL, and point-in-time recovery.
+    </p>
+    <div class="tags">
+      <span>GitHub Actions</span>
+      <span>pytest</span>
+      <span>CloudWatch</span>
+      <span>SQS</span>
+    </div>
+  </div>
+</div>
