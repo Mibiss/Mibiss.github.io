@@ -20,5 +20,8 @@ async function loadPartial(elementId, file) {
   document.getElementById(elementId).innerHTML = html;
 }
 
+loadPartial("navbar-partial", "partials/navbar.html");
 loadPartial("homepulse-partial", "partials/homepulse.html");
 loadPartial("ai-competition-partial", "partials/ai-competition.html");
+loadPartial("contact-partial", "./partials/contact.html");
+loadPartial("footer-partial", "partials/footer.html");
